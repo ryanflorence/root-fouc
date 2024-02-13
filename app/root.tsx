@@ -17,10 +17,12 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Root!</h1>
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
+        <div className="body-holder">
+          <h1>Root!</h1>
+          <Outlet />
+          <ScrollRestoration />
+          <Scripts />
+        </div>
       </body>
     </html>
   );
